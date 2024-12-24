@@ -1,0 +1,352 @@
+/* ---------------------------------------------------- */
+.ventana1 {
+  margin-top: 1rem;
+  background-color: var(--Yellow-100);
+  border-radius: 5px;
+  height: 18rem;
+  width: 70%;
+  padding-top: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.alltext1 {
+  text-align: center;
+}
+
+.textComercial1 {
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -2px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.imageWrapper {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.highlight1 {
+  color: var(--Purple-500);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.textWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ---------------------------------------------------- */
+
+.ventana2 {
+  margin-top: 1rem;
+  background-color: var(--Purple-500);
+  margin: 0.5rem;
+  border-radius: 5px;
+  width: 70%;
+  height: 15rem;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  justify-self: center;
+  align-self: center;
+}
+
+.reviewText {
+  justify-self: center;
+}
+
+.textComercial2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 22px;
+}
+
+.highlight2 {
+  color: var(--Yellow-500);
+}
+
+.reviewText {
+  margin-top: 1rem;
+}
+
+/* ---------------------------------------------------- */
+.ventana3 {
+  margin: 0.5rem;
+  border-radius: 5px;
+  background-color: var(--Purple-100);
+  height: 20rem;
+  width: 70%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.textWrapper3 {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.description3 {
+  letter-spacing: -1px;
+  margin-top: 0.7rem;
+  font-size: 18.3px;
+  text-align: center;
+}
+
+/* ---------------------------------------------------- */
+
+.ventana6 {
+  width: 70%;
+  height: 10rem;
+  margin: 0.5rem;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: cornsilk;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.textWrapper6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.highlight6 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.sub_highlight6 {
+  letter-spacing: -1px;
+  font-size: 19px;
+}
+
+/* ---------------------------------------------------- */
+.ventana5 {
+  background-color: aliceblue;
+  width: 70%;
+  margin: 0.5rem;
+  height: 10rem;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.description5 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+/* ---------------------------------------------------- */
+.ventana7 {
+  margin: 0.5rem;
+  height: 15rem;
+  background-color: var(--Yellow-500);
+  width: 70%;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.textWrapper7 {
+  padding-left: 0.5rem;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -1px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.imageWrapper7 {
+  display: flex;
+  align-items: end;
+  margin-top: 2rem;
+  margin-left: 0.6rem;
+  margin-bottom: -15px;
+}
+
+/* ---------------------------------------------------- */
+.ventana4 {
+  margin: 0.5rem;
+  height: 14rem;
+  font-size: 19px;
+  color: white;
+  border-radius: 5px;
+  width: 70%;
+  background-color: var(--Purple-500);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.description4 {
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin: 1rem;
+  text-align: center;
+}
+
+/* ---------------------------------------------------- */
+
+.ventana8 {
+  margin: 0.5rem;
+  width: 70%;
+  height: 15rem;
+  background-color: var(--Yellow-500);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.textWrapper8 {
+  margin-bottom: 1rem;
+  letter-spacing: -1px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 720px) {
+  .ventana1,
+  .ventana2,
+  .ventana3,
+  .ventana4,
+  .ventana5,
+  .ventana6,
+  .ventana7,
+  .ventana8 {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .comercioContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .comercioContainer {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* o lo que necesites */
+    grid-template-rows: auto; /* o un valor específico si quieres filas de tamaño fijo */
+    gap: 1rem; /* espaciado entre elementos */
+  }
+
+  .ventana1,
+  .ventana2,
+  .ventana3,
+  .ventana4,
+  .ventana5,
+  .ventana6,
+  .ventana7,
+  .ventana8 {
+    margin: 0;
+    width: 100%;
+  }
+
+  .ventana1 {
+    height: 100%;
+    grid-column: 1 / 2; /* ejemplo de posición, ajusta según el diseño */
+    grid-row: 1 / 3;
+  }
+
+  .ventana2 {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+  }
+
+  .ventana3 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+  }
+
+  .ventana4 {
+    height: 100%;
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+  }
+
+  .ventana5 {
+
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+  }
+
+  .ventana6 {
+
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+  }
+
+  .ventana7 {
+    height: 100%;
+    grid-column: 4 / 5;
+    grid-row: 3 / 5;
+  }
+
+  .ventana8 {
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+  }
+}
